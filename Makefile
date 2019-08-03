@@ -41,4 +41,8 @@ minikubeboard:
 	minikube dashboard
 servicestart:
 	minikube service house-prediction
+validate-circleci:
+	circleci config process .circleci/config.yml
+run-circleci-local:
+	circleci local execute
 all: install lint test
