@@ -44,3 +44,5 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 ### memo
 - sklearnのバージョンダウングレード
 - dockerで動作確認済み
+- docker command list https://docs.docker.com/engine/reference/commandline/docker/
+- task5からスタート

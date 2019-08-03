@@ -33,4 +33,12 @@ start-app:
 	python3.7 app.py
 activate:
 	source ~/.devops/bin/activate
+mininkube-start:
+	minikube start
+check_kubenetes_deployment:
+	kubectl get deployments
+minikubeboard:
+	minikube dashboard
+servicestart:
+	minikube service house-prediction
 all: install lint test

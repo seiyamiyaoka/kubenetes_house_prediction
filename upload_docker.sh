@@ -6,10 +6,13 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
+dockerpath=seiyamiyaoka/house-prediction
 
-# Step 2:  
+# Step 2:
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
-# Push image to a docker repository
+# Push image to a docker repository. this mean is upload docker hub
+# https://forums.docker.com/t/docker-push-error-fata-0001-respository-does-not-exist/1309/24
+docker push docker.io/${dockerpath}
