@@ -1,6 +1,10 @@
 [![CircleCI](https://circleci.com/gh/seiyamiyaoka/kubenetes_house_prediction.svg?style=svg)](https://circleci.com/gh/seiyamiyaoka/kubenetes_house_prediction)
 
-## Setup the Environment
+### This Project
+
+This project is to run a web application using machine learning with kubenetes.
+
+### Installs
 
 * Create a virtualenv and activate it
 * Run `make install` to install the necessary dependencies
@@ -11,6 +15,14 @@
 1. Standalone:  `python app.py` if do not work this command, `python3.7 app.py`
 2. Run in Docker:  `./run_docker.sh`
 3. Run in Kubernetes:  `./run_kubernetes.sh`
+
+### Running Check
+
+```sh
+./make_prediction.sh
+```
+
+It is a success if the prediction is output like txt in the output directory.
 
 ### Kubernetes Steps
 
