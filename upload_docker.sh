@@ -10,6 +10,11 @@ dockerpath=seiyamiyaoka/house-prediction
 
 # Step 2:
 # Authenticate & tag
+# Login
+echo "Longin start"
+docker tag seiyamiyaoka/house-prediction seiyamiyaoka/house-prediction:0.1
+# add tag
+docker tag ${dockerpath} ${dockerpath}:0.1
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
